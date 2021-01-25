@@ -53,4 +53,8 @@ location ~ \.php$ {
     }
 }
 
-![plot](./directory_1/directory_2/.../directory_n/plot.png)
+# uploader
+![plot](./uploader.png)
+
+# inspect element
+![plot](./inspect.png)
