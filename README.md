@@ -1,10 +1,12 @@
-# simple  php web for upload large files to the server by chunks
+# Simple  php web for upload large files to the server by chunks
 
-# instalation:
+# Instalation:
 
 ```
-plupload required:
-download latest from: (https://www.plupload.com/)
+cd /var/www/html/
+git clone https://github.com/SmurfManX/php-file-uploader.git
+cd php-file-uploader
+download latest plupload from: (https://www.plupload.com/)
 mv plupload-*.tar plupload 
 ```
 
@@ -19,8 +21,8 @@ upload.php
 # NGINX config example:
 ```
 server {
-    root /var/www/html/uploader;
-    index  index.php upload.php index.html;
+    root /var/www/html/php-file-uploader;
+    index  index.php upload.php;
     server_name uploader.example.com;
 
 location / {
