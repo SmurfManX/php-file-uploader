@@ -4,7 +4,7 @@
 
 ```
 plupload required:
-download latest from: https://www.plupload.com/
+download latest from:  [post_action](https://www.plupload.com/)
 mv plupload-*.tar plupload 
 ```
 
