@@ -1,28 +1,22 @@
-simple  php web for uploading files to the server by chunks
+# simple  php web for uploading files to the server by chunks
 
-instalation:
+# instalation:
 
-################################################
 plupload required:
 download latest from: https://www.plupload.com/
 mv plupload-*.tar plupload 
-################################################
 
 
-folder structure:
 
-################################################
+# folder structure:
+
 /plupload
 /uploads
 index.php
 README.md
 upload.php
-################################################
 
-
-NGINX config example:
-
-################################################
+# NGINX config example:
 
 server {
     root /var/www/html/uploader;
@@ -59,4 +53,4 @@ location ~ \.php$ {
         fastcgi_pass 127.0.0.1:9000;
     }
 }
-################################################
+
