@@ -16,7 +16,7 @@ index.php
 upload.php
 
 # NGINX config example:
-
+```
 server {
     root /var/www/html/uploader;
     index  index.php upload.php index.html;
@@ -52,7 +52,7 @@ location ~ \.php$ {
         fastcgi_pass 127.0.0.1:9000;
     }
 }
-
+```
 # uploader
 ![plot](./uploader.png)
 
