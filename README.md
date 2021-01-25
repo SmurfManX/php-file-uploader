@@ -1,6 +1,6 @@
 # Simple  php web for upload large files to the server by chunks
 
-# Instalation:
+# Installation:
 
 ```
 cd /var/www/html/
