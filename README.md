@@ -13,7 +13,6 @@ mv plupload-*.tar plupload
 /plupload
 /uploads
 index.php
-README.md
 upload.php
 
 # NGINX config example:
