@@ -1,4 +1,4 @@
-# simple  php web for uploading files to the server by chunks
+# simple  php web for upload large files to the server by chunks
 
 # instalation:
 
