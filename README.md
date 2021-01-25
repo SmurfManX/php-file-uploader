@@ -2,19 +2,20 @@
 
 # instalation:
 
+```
 plupload required:
 download latest from: https://www.plupload.com/
 mv plupload-*.tar plupload 
-
+```
 
 
 # folder structure:
-
+```
 /plupload
 /uploads
 index.php
 upload.php
-
+```
 # NGINX config example:
 ```
 server {
