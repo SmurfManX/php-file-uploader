@@ -6,8 +6,9 @@
 cd /var/www/html/
 git clone https://github.com/SmurfManX/php-file-uploader.git
 cd php-file-uploader
-download latest plupload from: (https://www.plupload.com/)
-mv plupload-*.tar plupload 
+wget -O plupload.tar https://codeload.github.com/moxiecode/plupload/zip/v3.1.5
+unzip plupload.tar
+mv plupload-* plupload
 ```
 
 
