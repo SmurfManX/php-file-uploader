@@ -9,6 +9,7 @@ cd php-file-uploader
 wget -O plupload.tar https://codeload.github.com/moxiecode/plupload/zip/v3.1.5
 unzip plupload.tar
 mv plupload-* plupload
+chmod 0777 uploads
 ```
 
 
